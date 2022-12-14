@@ -1,0 +1,2 @@
+Invoking command in '/home/mp4d/project-ROS2-pkg/build/project_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mp4d/project-ROS2-pkg -DCMAKE_INSTALL_PREFIX=/home/mp4d/project-ROS2-pkg/install/project_ros2_pkg
+Invoked command in '/home/mp4d/project-ROS2-pkg/build/project_ros2_pkg' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/mp4d/project-ROS2-pkg -DCMAKE_INSTALL_PREFIX=/home/mp4d/project-ROS2-pkg/install/project_ros2_pkg

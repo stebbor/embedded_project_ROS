@@ -1,0 +1,29 @@
+[0.120s] Invoking command in '/home/mp4d/ros2_ws/build/project_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4
+[0.402s] [35m[1mScanning dependencies of target image_subscriber[0m
+[0.579s] [ 50%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o[0m
+[15.886s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::onImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[15.888s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:32:32:[m[K [01;31m[Kerror: [m[K‘[01m[KSize[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::Size[m[K’?
+[15.889s]    32 |    cv::resize(greyimg,resized, [01;31m[KSize[m[K(20,20), INTER_LINEAR);
+[15.889s]       |                                [01;31m[K^~~~[m[K
+[15.891s]       |                                [32m[Kcv::Size[m[K
+[15.892s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[15.892s]                  from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+[15.893s]                  from [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:43[m[K,
+[15.893s]                  from [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:4[m[K:
+[15.894s] [01m[K/usr/include/opencv4/opencv2/core/types.hpp:347:16:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Size[m[K’ declared here
+[15.894s]   347 | typedef Size2i [01;36m[KSize[m[K;
+[15.895s]       |                [01;36m[K^~~~[m[K
+[15.896s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:32:45:[m[K [01;31m[Kerror: [m[K‘[01m[KINTER_LINEAR[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::INTER_LINEAR[m[K’?
+[15.896s]    32 |    cv::resize(greyimg,resized, Size(20,20), [01;31m[KINTER_LINEAR[m[K);
+[15.897s]       |                                             [01;31m[K^~~~~~~~~~~~[m[K
+[15.897s]       |                                             [32m[Kcv::INTER_LINEAR[m[K
+[15.898s] In file included from [01m[K/usr/include/opencv4/opencv2/imgproc/imgproc.hpp:48[m[K,
+[15.898s]                  from [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:44[m[K,
+[15.899s]                  from [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:4[m[K:
+[15.900s] [01m[K/usr/include/opencv4/opencv2/imgproc.hpp:248:5:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::INTER_LINEAR[m[K’ declared here
+[15.900s]   248 |     [01;36m[KINTER_LINEAR[m[K         = 1,
+[15.901s]       |     [01;36m[K^~~~~~~~~~~~[m[K
+[25.858s] make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:63: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o] Error 1
+[25.859s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+[25.860s] make: *** [Makefile:141: all] Error 2
+[25.871s] Invoked command in '/home/mp4d/ros2_ws/build/project_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4

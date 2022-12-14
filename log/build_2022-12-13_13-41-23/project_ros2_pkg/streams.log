@@ -1,0 +1,28 @@
+[0.118s] Invoking command in '/home/mp4d/ros2_ws/build/project_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4
+[0.399s] [35m[1mScanning dependencies of target image_subscriber[0m
+[0.576s] [ 50%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o[0m
+[1.688s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:49:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+[1.689s]    49 | }
+[1.690s]       | 
+[15.659s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:33:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[15.660s]    33 |    [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "IMG vector: '%f'",(float)vec.size();
+[15.661s]       |    [01;31m[K^~~~~~~~~~~[m[K
+[15.662s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:7:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[15.662s]     7 | [01;36m[K{[m[K
+[15.663s]       | [01;36m[K^[m[K
+[15.927s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::onImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[15.927s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:33:4:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+[15.928s]    33 |    [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "IMG vector: '%f'",(float)vec.size();
+[15.929s]       |    [01;31m[K^~~~~~~~~~~[m[K
+[15.929s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:33:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[15.930s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:25:65:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[15.930s]    25 |   void onImageMsg(const sensor_msgs::msg::Image::SharedPtr msg) [01;36m[K{[m[K
+[15.931s]       |                                                                 [01;36m[K^[m[K
+[15.931s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K At global scope:
+[15.932s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:33:4:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[15.932s]    33 |    [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "IMG vector: '%f'",(float)vec.size();
+[15.933s]       |    [01;31m[K^~~~~~~~~~~[m[K
+[24.909s] make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:63: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o] Error 1
+[24.910s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+[24.911s] make: *** [Makefile:141: all] Error 2
+[24.922s] Invoked command in '/home/mp4d/ros2_ws/build/project_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4

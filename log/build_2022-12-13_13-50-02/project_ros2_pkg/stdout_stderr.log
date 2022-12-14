@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target image_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o[0m
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::onImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:32:32:[m[K [01;31m[Kerror: [m[K‘[01m[KSize[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::Size[m[K’?
+   32 |    cv::resize(greyimg,resized, [01;31m[KSize[m[K(20,20), INTER_LINEAR);
+      |                                [01;31m[K^~~~[m[K
+      |                                [32m[Kcv::Size[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:4[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/types.hpp:347:16:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Size[m[K’ declared here
+  347 | typedef Size2i [01;36m[KSize[m[K;
+      |                [01;36m[K^~~~[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:32:45:[m[K [01;31m[Kerror: [m[K‘[01m[KINTER_LINEAR[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::INTER_LINEAR[m[K’?
+   32 |    cv::resize(greyimg,resized, Size(20,20), [01;31m[KINTER_LINEAR[m[K);
+      |                                             [01;31m[K^~~~~~~~~~~~[m[K
+      |                                             [32m[Kcv::INTER_LINEAR[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/imgproc/imgproc.hpp:48[m[K,
+                 from [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:44[m[K,
+                 from [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:4[m[K:
+[01m[K/usr/include/opencv4/opencv2/imgproc.hpp:248:5:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::INTER_LINEAR[m[K’ declared here
+  248 |     [01;36m[KINTER_LINEAR[m[K         = 1,
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:63: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

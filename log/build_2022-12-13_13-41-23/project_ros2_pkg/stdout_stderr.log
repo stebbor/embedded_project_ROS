@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target image_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o[0m
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:49:[m[K [01;31m[Kerror: [m[Kunterminated argument list invoking macro "RCLCPP_INFO"
+   49 | }
+      | 
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:33:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   33 |    [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "IMG vector: '%f'",(float)vec.size();
+      |    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:7:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+    7 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::onImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:33:4:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope
+   33 |    [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "IMG vector: '%f'",(float)vec.size();
+      |    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:33:4:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:25:65:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   25 |   void onImageMsg(const sensor_msgs::msg::Image::SharedPtr msg) [01;36m[K{[m[K
+      |                                                                 [01;36m[K^[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K At global scope:
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:33:4:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+   33 |    [01;31m[KRCLCPP_INFO[m[K(this->get_logger(), "IMG vector: '%f'",(float)vec.size();
+      |    [01;31m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:63: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

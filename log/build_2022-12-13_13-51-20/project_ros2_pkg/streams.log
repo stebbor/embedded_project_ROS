@@ -1,0 +1,18 @@
+[0.119s] Invoking command in '/home/mp4d/ros2_ws/build/project_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4
+[0.400s] [35m[1mScanning dependencies of target image_subscriber[0m
+[0.577s] [ 50%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o[0m
+[15.893s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::onImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[15.895s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:32:49:[m[K [01;31m[Kerror: [m[K‘[01m[KINTER_LINEAR[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::INTER_LINEAR[m[K’?
+[15.895s]    32 |    cv::resize(greyimg,resized, cv::Size(20,20), [01;31m[KINTER_LINEAR[m[K);
+[15.896s]       |                                                 [01;31m[K^~~~~~~~~~~~[m[K
+[15.896s]       |                                                 [32m[Kcv::INTER_LINEAR[m[K
+[15.897s] In file included from [01m[K/usr/include/opencv4/opencv2/imgproc/imgproc.hpp:48[m[K,
+[15.897s]                  from [01m[K/opt/ros/foxy/include/cv_bridge/cv_bridge.h:44[m[K,
+[15.898s]                  from [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:4[m[K:
+[15.899s] [01m[K/usr/include/opencv4/opencv2/imgproc.hpp:248:5:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::INTER_LINEAR[m[K’ declared here
+[15.899s]   248 |     [01;36m[KINTER_LINEAR[m[K         = 1,
+[15.900s]       |     [01;36m[K^~~~~~~~~~~~[m[K
+[25.862s] make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:63: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o] Error 1
+[25.864s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+[25.865s] make: *** [Makefile:141: all] Error 2
+[25.875s] Invoked command in '/home/mp4d/ros2_ws/build/project_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4
