@@ -24,6 +24,7 @@ find_package(cv_bridge REQUIRED)
 
 add_executable(image_subscriber
 	src/image_subscriber.cpp
+	src/BRAM-uio-driver/src/bram_uio.cpp
 )
 ament_target_dependencies(image_subscriber
 	rclcpp

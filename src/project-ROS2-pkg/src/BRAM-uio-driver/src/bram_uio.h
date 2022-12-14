@@ -33,5 +33,4 @@ public:
     uint32_t *GetPointer() ;
 private:
     uint32_t *bram_ptr;
-
 };

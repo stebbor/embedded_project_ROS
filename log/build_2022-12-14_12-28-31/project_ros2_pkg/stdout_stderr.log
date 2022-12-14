@@ -1,0 +1,20 @@
+[35m[1mScanning dependencies of target image_subscriber[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o[0m
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::onImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:37:37:[m[K [01;35m[Kwarning: [m[Kcast to pointer from integer of different size [[01;35m[K-Wint-to-pointer-cast[m[K]
+   37 |    bram0_addr[i] = *(uint32_t*)vec[i[01;35m[K][m[K;
+      |                                     [01;35m[K^[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:27:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbram1_addr[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   27 |      uint32_t *[01;35m[Kbram1_addr[m[K = reader.GetPointer();
+      |                [01;35m[K^~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable image_subscriber[0m
+/usr/bin/ld: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o: in function `ImageSubscriber::ImageSubscriber()':
+image_subscriber.cpp:(.text._ZN15ImageSubscriberC2Ev[_ZN15ImageSubscriberC5Ev]+0xe4): undefined reference to `BRAM::BRAM(unsigned int, unsigned int)'
+/usr/bin/ld: image_subscriber.cpp:(.text._ZN15ImageSubscriberC2Ev[_ZN15ImageSubscriberC5Ev]+0xf8): undefined reference to `BRAM::BRAM(unsigned int, unsigned int)'
+/usr/bin/ld: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o: in function `ImageSubscriber::onImageMsg(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)':
+image_subscriber.cpp:(.text._ZN15ImageSubscriber10onImageMsgESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN15ImageSubscriber10onImageMsgESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x34): undefined reference to `BRAM::GetPointer()'
+/usr/bin/ld: image_subscriber.cpp:(.text._ZN15ImageSubscriber10onImageMsgESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN15ImageSubscriber10onImageMsgESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x44): undefined reference to `BRAM::GetPointer()'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:195: image_subscriber] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

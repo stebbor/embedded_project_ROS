@@ -1,0 +1,325 @@
+[0.000000] (-) TimerEvent: {}
+[0.002437] (project_ros2_pkg) JobQueued: {'identifier': 'project_ros2_pkg', 'dependencies': OrderedDict()}
+[0.004266] (project_ros2_pkg) JobStarted: {'identifier': 'project_ros2_pkg'}
+[0.100636] (-) TimerEvent: {}
+[0.130006] (project_ros2_pkg) JobProgress: {'identifier': 'project_ros2_pkg', 'progress': 'cmake'}
+[0.162712] (project_ros2_pkg) JobProgress: {'identifier': 'project_ros2_pkg', 'progress': 'build'}
+[0.168322] (project_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mp4d/ros2_ws/build/project_ros2_pkg', '--', '-j4', '-l4'], 'cwd': '/home/mp4d/ros2_ws/build/project_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mp4d'), ('SSH_CLIENT', '192.168.43.42 63774 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mp4d'), ('OLDPWD', '/home/mp4d'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('XILINX_XRT', '/usr'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/mp4d/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mp4d'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/opt/gradle/gradle-6.3/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mp4d/ros2_ws/install/project_ros2_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mp4d/ros2_ws/build/project_ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.43.42 63774 192.168.43.96 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mp4d/ros2_ws/install/project_ros2_pkg:/opt/ros/foxy')]), 'shell': False}
+[0.201299] (-) TimerEvent: {}
+[0.303357] (-) TimerEvent: {}
+[0.404718] (-) TimerEvent: {}
+[0.506153] (-) TimerEvent: {}
+[0.607828] (-) TimerEvent: {}
+[0.709446] (-) TimerEvent: {}
+[0.810822] (-) TimerEvent: {}
+[0.911820] (-) TimerEvent: {}
+[1.012599] (-) TimerEvent: {}
+[1.113463] (-) TimerEvent: {}
+[1.214447] (-) TimerEvent: {}
+[1.316138] (-) TimerEvent: {}
+[1.417761] (-) TimerEvent: {}
+[1.519394] (-) TimerEvent: {}
+[1.606276] (project_ros2_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[1.619582] (-) TimerEvent: {}
+[1.721029] (-) TimerEvent: {}
+[1.788304] (project_ros2_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.821377] (-) TimerEvent: {}
+[1.923053] (-) TimerEvent: {}
+[2.024559] (-) TimerEvent: {}
+[2.125991] (-) TimerEvent: {}
+[2.227684] (-) TimerEvent: {}
+[2.329183] (-) TimerEvent: {}
+[2.430790] (-) TimerEvent: {}
+[2.532427] (-) TimerEvent: {}
+[2.634032] (-) TimerEvent: {}
+[2.735743] (-) TimerEvent: {}
+[2.837233] (-) TimerEvent: {}
+[2.938635] (-) TimerEvent: {}
+[3.039996] (-) TimerEvent: {}
+[3.141359] (-) TimerEvent: {}
+[3.242883] (-) TimerEvent: {}
+[3.344749] (-) TimerEvent: {}
+[3.446607] (-) TimerEvent: {}
+[3.548784] (-) TimerEvent: {}
+[3.583977] (project_ros2_pkg) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[3.649163] (-) TimerEvent: {}
+[3.750766] (-) TimerEvent: {}
+[3.852438] (-) TimerEvent: {}
+[3.876747] (project_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.913924] (project_ros2_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[3.952804] (-) TimerEvent: {}
+[4.054377] (-) TimerEvent: {}
+[4.156028] (-) TimerEvent: {}
+[4.257720] (-) TimerEvent: {}
+[4.359484] (-) TimerEvent: {}
+[4.461201] (-) TimerEvent: {}
+[4.562942] (-) TimerEvent: {}
+[4.664650] (-) TimerEvent: {}
+[4.760827] (project_ros2_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.764737] (-) TimerEvent: {}
+[4.865937] (-) TimerEvent: {}
+[4.967582] (-) TimerEvent: {}
+[5.069258] (-) TimerEvent: {}
+[5.170935] (-) TimerEvent: {}
+[5.224502] (project_ros2_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[5.241827] (project_ros2_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.271239] (-) TimerEvent: {}
+[5.372885] (-) TimerEvent: {}
+[5.474463] (-) TimerEvent: {}
+[5.576135] (-) TimerEvent: {}
+[5.677709] (-) TimerEvent: {}
+[5.779351] (-) TimerEvent: {}
+[5.880880] (-) TimerEvent: {}
+[5.982319] (-) TimerEvent: {}
+[6.083858] (-) TimerEvent: {}
+[6.185453] (-) TimerEvent: {}
+[6.287030] (-) TimerEvent: {}
+[6.388706] (-) TimerEvent: {}
+[6.490271] (-) TimerEvent: {}
+[6.541413] (project_ros2_pkg) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[6.590596] (-) TimerEvent: {}
+[6.692216] (-) TimerEvent: {}
+[6.793736] (-) TimerEvent: {}
+[6.895328] (-) TimerEvent: {}
+[6.996977] (-) TimerEvent: {}
+[7.098834] (-) TimerEvent: {}
+[7.200556] (-) TimerEvent: {}
+[7.302524] (-) TimerEvent: {}
+[7.404183] (-) TimerEvent: {}
+[7.505907] (-) TimerEvent: {}
+[7.607553] (-) TimerEvent: {}
+[7.678084] (project_ros2_pkg) StdoutLine: {'line': b'-- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[7.707785] (-) TimerEvent: {}
+[7.809394] (-) TimerEvent: {}
+[7.893303] (project_ros2_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[7.909780] (-) TimerEvent: {}
+[8.011541] (-) TimerEvent: {}
+[8.112980] (-) TimerEvent: {}
+[8.214619] (-) TimerEvent: {}
+[8.316337] (-) TimerEvent: {}
+[8.418236] (-) TimerEvent: {}
+[8.466659] (project_ros2_pkg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[8.501764] (project_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[8.503376] (project_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[8.504142] (project_ros2_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[8.518358] (-) TimerEvent: {}
+[8.521683] (project_ros2_pkg) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[8.522795] (project_ros2_pkg) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[8.527877] (project_ros2_pkg) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[8.535265] (project_ros2_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[8.540842] (project_ros2_pkg) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[8.558097] (project_ros2_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[8.559222] (project_ros2_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[8.563765] (project_ros2_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[8.583644] (project_ros2_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.618748] (-) TimerEvent: {}
+[8.720501] (-) TimerEvent: {}
+[8.822149] (-) TimerEvent: {}
+[8.855186] (project_ros2_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[8.866368] (project_ros2_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/mp4d/ros2_ws/build/project_ros2_pkg\n'}
+[8.922629] (-) TimerEvent: {}
+[9.024867] (-) TimerEvent: {}
+[9.126711] (-) TimerEvent: {}
+[9.228628] (-) TimerEvent: {}
+[9.330131] (-) TimerEvent: {}
+[9.431561] (-) TimerEvent: {}
+[9.435611] (project_ros2_pkg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target image_subscriber\x1b[0m\n'}
+[9.532016] (-) TimerEvent: {}
+[9.590440] (project_ros2_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/BRAM-uio-driver/src/bram_uio.cpp.o\x1b[0m\n'}
+[9.632338] (-) TimerEvent: {}
+[9.733814] (-) TimerEvent: {}
+[9.835093] (-) TimerEvent: {}
+[9.936313] (-) TimerEvent: {}
+[10.037450] (-) TimerEvent: {}
+[10.138396] (-) TimerEvent: {}
+[10.239227] (-) TimerEvent: {}
+[10.340004] (-) TimerEvent: {}
+[10.440749] (-) TimerEvent: {}
+[10.541624] (-) TimerEvent: {}
+[10.642488] (-) TimerEvent: {}
+[10.743317] (-) TimerEvent: {}
+[10.844471] (-) TimerEvent: {}
+[10.945354] (-) TimerEvent: {}
+[11.046088] (-) TimerEvent: {}
+[11.146718] (-) TimerEvent: {}
+[11.247420] (-) TimerEvent: {}
+[11.348086] (-) TimerEvent: {}
+[11.448905] (-) TimerEvent: {}
+[11.550054] (-) TimerEvent: {}
+[11.651032] (-) TimerEvent: {}
+[11.752401] (-) TimerEvent: {}
+[11.854072] (-) TimerEvent: {}
+[11.955688] (-) TimerEvent: {}
+[12.057396] (-) TimerEvent: {}
+[12.159078] (-) TimerEvent: {}
+[12.260735] (-) TimerEvent: {}
+[12.383632] (-) TimerEvent: {}
+[12.485400] (-) TimerEvent: {}
+[12.587104] (-) TimerEvent: {}
+[12.688792] (-) TimerEvent: {}
+[12.790495] (-) TimerEvent: {}
+[12.892326] (-) TimerEvent: {}
+[12.994203] (-) TimerEvent: {}
+[13.096068] (-) TimerEvent: {}
+[13.197992] (-) TimerEvent: {}
+[13.299884] (-) TimerEvent: {}
+[13.401670] (-) TimerEvent: {}
+[13.503488] (-) TimerEvent: {}
+[13.605454] (-) TimerEvent: {}
+[13.707417] (-) TimerEvent: {}
+[13.809270] (-) TimerEvent: {}
+[13.911153] (-) TimerEvent: {}
+[14.013012] (-) TimerEvent: {}
+[14.114920] (-) TimerEvent: {}
+[14.216773] (-) TimerEvent: {}
+[14.318417] (-) TimerEvent: {}
+[14.420056] (-) TimerEvent: {}
+[14.521661] (-) TimerEvent: {}
+[14.623334] (-) TimerEvent: {}
+[14.724988] (-) TimerEvent: {}
+[14.826586] (-) TimerEvent: {}
+[14.928255] (-) TimerEvent: {}
+[14.996933] (project_ros2_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable image_subscriber\x1b[0m\n'}
+[15.028658] (-) TimerEvent: {}
+[15.130414] (-) TimerEvent: {}
+[15.232004] (-) TimerEvent: {}
+[15.333603] (-) TimerEvent: {}
+[15.435117] (-) TimerEvent: {}
+[15.536552] (-) TimerEvent: {}
+[15.638135] (-) TimerEvent: {}
+[15.739881] (-) TimerEvent: {}
+[15.841735] (-) TimerEvent: {}
+[15.943339] (-) TimerEvent: {}
+[16.045034] (-) TimerEvent: {}
+[16.147130] (-) TimerEvent: {}
+[16.249135] (-) TimerEvent: {}
+[16.350897] (-) TimerEvent: {}
+[16.452735] (-) TimerEvent: {}
+[16.555634] (-) TimerEvent: {}
+[16.658651] (-) TimerEvent: {}
+[16.760919] (-) TimerEvent: {}
+[16.863813] (-) TimerEvent: {}
+[16.965870] (-) TimerEvent: {}
+[17.068276] (-) TimerEvent: {}
+[17.170833] (-) TimerEvent: {}
+[17.274021] (-) TimerEvent: {}
+[17.375770] (-) TimerEvent: {}
+[17.477535] (-) TimerEvent: {}
+[17.579208] (-) TimerEvent: {}
+[17.680842] (-) TimerEvent: {}
+[17.782567] (-) TimerEvent: {}
+[17.884290] (-) TimerEvent: {}
+[17.985979] (-) TimerEvent: {}
+[18.087645] (-) TimerEvent: {}
+[18.189718] (-) TimerEvent: {}
+[18.292611] (-) TimerEvent: {}
+[18.395462] (-) TimerEvent: {}
+[18.498254] (-) TimerEvent: {}
+[18.600826] (-) TimerEvent: {}
+[18.703736] (-) TimerEvent: {}
+[18.806407] (-) TimerEvent: {}
+[18.908768] (-) TimerEvent: {}
+[19.011205] (-) TimerEvent: {}
+[19.114027] (-) TimerEvent: {}
+[19.216288] (-) TimerEvent: {}
+[19.319323] (-) TimerEvent: {}
+[19.421515] (-) TimerEvent: {}
+[19.523955] (-) TimerEvent: {}
+[19.626171] (-) TimerEvent: {}
+[19.728893] (-) TimerEvent: {}
+[19.831587] (-) TimerEvent: {}
+[19.934207] (-) TimerEvent: {}
+[20.036881] (-) TimerEvent: {}
+[20.139841] (-) TimerEvent: {}
+[20.241967] (-) TimerEvent: {}
+[20.344040] (-) TimerEvent: {}
+[20.446132] (-) TimerEvent: {}
+[20.548441] (-) TimerEvent: {}
+[20.651098] (-) TimerEvent: {}
+[20.753252] (-) TimerEvent: {}
+[20.855500] (-) TimerEvent: {}
+[20.957655] (-) TimerEvent: {}
+[21.060048] (-) TimerEvent: {}
+[21.162176] (-) TimerEvent: {}
+[21.264415] (-) TimerEvent: {}
+[21.366944] (-) TimerEvent: {}
+[21.469073] (-) TimerEvent: {}
+[21.571187] (-) TimerEvent: {}
+[21.673272] (-) TimerEvent: {}
+[21.775534] (-) TimerEvent: {}
+[21.878290] (-) TimerEvent: {}
+[21.980543] (-) TimerEvent: {}
+[22.082910] (-) TimerEvent: {}
+[22.185049] (-) TimerEvent: {}
+[22.287154] (-) TimerEvent: {}
+[22.389499] (-) TimerEvent: {}
+[22.490925] (-) TimerEvent: {}
+[22.591886] (-) TimerEvent: {}
+[22.692742] (-) TimerEvent: {}
+[22.794115] (-) TimerEvent: {}
+[22.896613] (-) TimerEvent: {}
+[22.998670] (-) TimerEvent: {}
+[23.100811] (-) TimerEvent: {}
+[23.202909] (-) TimerEvent: {}
+[23.305092] (-) TimerEvent: {}
+[23.407247] (-) TimerEvent: {}
+[23.509570] (-) TimerEvent: {}
+[23.611695] (-) TimerEvent: {}
+[23.713856] (-) TimerEvent: {}
+[23.816027] (-) TimerEvent: {}
+[23.918178] (-) TimerEvent: {}
+[24.020461] (-) TimerEvent: {}
+[24.122713] (-) TimerEvent: {}
+[24.225140] (-) TimerEvent: {}
+[24.327267] (-) TimerEvent: {}
+[24.429434] (-) TimerEvent: {}
+[24.531585] (-) TimerEvent: {}
+[24.633775] (-) TimerEvent: {}
+[24.735973] (-) TimerEvent: {}
+[24.838109] (-) TimerEvent: {}
+[24.940288] (-) TimerEvent: {}
+[25.042435] (-) TimerEvent: {}
+[25.144607] (-) TimerEvent: {}
+[25.246753] (-) TimerEvent: {}
+[25.348970] (-) TimerEvent: {}
+[25.451093] (-) TimerEvent: {}
+[25.553119] (-) TimerEvent: {}
+[25.655282] (-) TimerEvent: {}
+[25.757456] (-) TimerEvent: {}
+[25.859489] (-) TimerEvent: {}
+[25.961668] (-) TimerEvent: {}
+[26.063811] (-) TimerEvent: {}
+[26.166048] (-) TimerEvent: {}
+[26.268717] (-) TimerEvent: {}
+[26.280983] (project_ros2_pkg) StdoutLine: {'line': b'[100%] Built target image_subscriber\n'}
+[26.348439] (project_ros2_pkg) CommandEnded: {'returncode': 0}
+[26.370020] (-) TimerEvent: {}
+[26.471470] (project_ros2_pkg) JobProgress: {'identifier': 'project_ros2_pkg', 'progress': 'install'}
+[26.472020] (-) TimerEvent: {}
+[26.540229] (project_ros2_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mp4d/ros2_ws/build/project_ros2_pkg'], 'cwd': '/home/mp4d/ros2_ws/build/project_ros2_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mp4d'), ('SSH_CLIENT', '192.168.43.42 63774 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/aarch64-linux-gnu:/opt/ros/foxy/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/mp4d'), ('OLDPWD', '/home/mp4d'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('XILINX_XRT', '/usr'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/mp4d/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mp4d'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/opt/gradle/gradle-6.3/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/mp4d/ros2_ws/install/project_ros2_pkg:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/mp4d/ros2_ws/build/project_ros2_pkg'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.43.42 63774 192.168.43.96 22'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/mp4d/ros2_ws/install/project_ros2_pkg:/opt/ros/foxy')]), 'shell': False}
+[26.572599] (-) TimerEvent: {}
+[26.606055] (project_ros2_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.614075] (project_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros2_ws/install/project_ros2_pkg/lib/project_ros2_pkg/image_subscriber\n'}
+[26.627988] (project_ros2_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/mp4d/ros2_ws/install/project_ros2_pkg/lib/project_ros2_pkg/image_subscriber" to ""\n'}
+[26.629340] (project_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/project_ros2_pkg\n'}
+[26.630220] (project_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/project_ros2_pkg\n'}
+[26.631035] (project_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/environment/ament_prefix_path.sh\n'}
+[26.631785] (project_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/environment/ament_prefix_path.dsv\n'}
+[26.632793] (project_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/environment/path.sh\n'}
+[26.633638] (project_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/environment/path.dsv\n'}
+[26.634612] (project_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/local_setup.bash\n'}
+[26.635435] (project_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/local_setup.sh\n'}
+[26.636129] (project_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/local_setup.zsh\n'}
+[26.636756] (project_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/local_setup.dsv\n'}
+[26.637513] (project_ros2_pkg) StdoutLine: {'line': b'-- Installing: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/package.dsv\n'}
+[26.638059] (project_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/ament_index/resource_index/packages/project_ros2_pkg\n'}
+[26.638891] (project_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/cmake/project_ros2_pkgConfig.cmake\n'}
+[26.639608] (project_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/cmake/project_ros2_pkgConfig-version.cmake\n'}
+[26.640271] (project_ros2_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/package.xml\n'}
+[26.651147] (project_ros2_pkg) CommandEnded: {'returncode': 0}
+[26.673555] (-) TimerEvent: {}
+[26.780311] (-) TimerEvent: {}
+[26.890499] (-) TimerEvent: {}
+[26.997230] (-) TimerEvent: {}
+[27.050596] (project_ros2_pkg) JobEnded: {'identifier': 'project_ros2_pkg', 'rc': 0}
+[27.056625] (-) EventReactorShutdown: {}

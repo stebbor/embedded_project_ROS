@@ -206,6 +206,33 @@ uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
 
+src/BRAM-uio-driver/src/bram_uio.o: src/BRAM-uio-driver/src/bram_uio.cpp.o
+
+.PHONY : src/BRAM-uio-driver/src/bram_uio.o
+
+# target to build an object file
+src/BRAM-uio-driver/src/bram_uio.cpp.o:
+	$(MAKE) -f CMakeFiles/image_subscriber.dir/build.make CMakeFiles/image_subscriber.dir/src/BRAM-uio-driver/src/bram_uio.cpp.o
+.PHONY : src/BRAM-uio-driver/src/bram_uio.cpp.o
+
+src/BRAM-uio-driver/src/bram_uio.i: src/BRAM-uio-driver/src/bram_uio.cpp.i
+
+.PHONY : src/BRAM-uio-driver/src/bram_uio.i
+
+# target to preprocess a source file
+src/BRAM-uio-driver/src/bram_uio.cpp.i:
+	$(MAKE) -f CMakeFiles/image_subscriber.dir/build.make CMakeFiles/image_subscriber.dir/src/BRAM-uio-driver/src/bram_uio.cpp.i
+.PHONY : src/BRAM-uio-driver/src/bram_uio.cpp.i
+
+src/BRAM-uio-driver/src/bram_uio.s: src/BRAM-uio-driver/src/bram_uio.cpp.s
+
+.PHONY : src/BRAM-uio-driver/src/bram_uio.s
+
+# target to generate assembly for a file
+src/BRAM-uio-driver/src/bram_uio.cpp.s:
+	$(MAKE) -f CMakeFiles/image_subscriber.dir/build.make CMakeFiles/image_subscriber.dir/src/BRAM-uio-driver/src/bram_uio.cpp.s
+.PHONY : src/BRAM-uio-driver/src/bram_uio.cpp.s
+
 src/image_subscriber.o: src/image_subscriber.cpp.o
 
 .PHONY : src/image_subscriber.o
@@ -249,6 +276,9 @@ help:
 	@echo "... install/local"
 	@echo "... project_ros2_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... src/BRAM-uio-driver/src/bram_uio.o"
+	@echo "... src/BRAM-uio-driver/src/bram_uio.i"
+	@echo "... src/BRAM-uio-driver/src/bram_uio.s"
 	@echo "... src/image_subscriber.o"
 	@echo "... src/image_subscriber.i"
 	@echo "... src/image_subscriber.s"

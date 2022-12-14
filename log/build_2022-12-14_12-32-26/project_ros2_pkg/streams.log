@@ -1,0 +1,14 @@
+[0.108s] Invoking command in '/home/mp4d/ros2_ws/build/project_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4
+[0.394s] [35m[1mScanning dependencies of target image_subscriber[0m
+[0.585s] [ 50%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o[0m
+[45.254s] [100%] [32m[1mLinking CXX executable image_subscriber[0m
+[52.539s] /usr/bin/ld: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o: in function `ImageSubscriber::ImageSubscriber()':
+[52.540s] image_subscriber.cpp:(.text._ZN15ImageSubscriberC2Ev[_ZN15ImageSubscriberC5Ev]+0xe4): undefined reference to `BRAM::BRAM(unsigned int, unsigned int)'
+[52.541s] /usr/bin/ld: image_subscriber.cpp:(.text._ZN15ImageSubscriberC2Ev[_ZN15ImageSubscriberC5Ev]+0xf8): undefined reference to `BRAM::BRAM(unsigned int, unsigned int)'
+[52.542s] /usr/bin/ld: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o: in function `ImageSubscriber::onImageMsg(std::shared_ptr<sensor_msgs::msg::Image_<std::allocator<void> > >)':
+[52.542s] image_subscriber.cpp:(.text._ZN15ImageSubscriber10onImageMsgESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE[_ZN15ImageSubscriber10onImageMsgESt10shared_ptrIN11sensor_msgs3msg6Image_ISaIvEEEE]+0x34): undefined reference to `BRAM::GetPointer()'
+[52.543s] collect2: error: ld returned 1 exit status
+[52.547s] make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:195: image_subscriber] Error 1
+[52.549s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+[52.550s] make: *** [Makefile:141: all] Error 2
+[52.562s] Invoked command in '/home/mp4d/ros2_ws/build/project_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4

@@ -1,0 +1,11 @@
+[0.113s] Invoking command in '/home/mp4d/ros2_ws/build/project_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4
+[0.406s] [35m[1mScanning dependencies of target image_subscriber[0m
+[0.588s] [ 50%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o[0m
+[1.761s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:4:10:[m[K [01;31m[Kfatal error: [m[KBRAM-uio-driver/src/bram_uio.h: No such file or directory
+[1.762s]     4 | #include [01;31m[K<BRAM-uio-driver/src/bram_uio.h>[m[K
+[1.763s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.763s] compilation terminated.
+[1.784s] make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:63: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o] Error 1
+[1.785s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+[1.786s] make: *** [Makefile:141: all] Error 2
+[1.797s] Invoked command in '/home/mp4d/ros2_ws/build/project_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4

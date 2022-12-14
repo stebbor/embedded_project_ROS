@@ -1,0 +1,41 @@
+In file included from [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:4[m[K:
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:36:10:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[Kwriter[m[K’ has incomplete type ‘[01m[KBRAM[m[K’
+   36 |     BRAM [01;31m[Kwriter[m[K;
+      |          [01;31m[K^~~~~~[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:27:7:[m[K [01;36m[Knote: [m[Kdefinition of ‘[01m[Kclass BRAM[m[K’ is not complete until the closing brace
+   27 | class [01;36m[KBRAM[m[K {
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:37:10:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[Kreader[m[K’ has incomplete type ‘[01m[KBRAM[m[K’
+   37 |     BRAM [01;31m[Kreader[m[K;
+      |          [01;31m[K^~~~~~[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:27:7:[m[K [01;36m[Knote: [m[Kdefinition of ‘[01m[Kclass BRAM[m[K’ is not complete until the closing brace
+   27 | class [01;36m[KBRAM[m[K {
+      |       [01;36m[K^~~~[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In constructor ‘[01m[KImageSubscriber::ImageSubscriber()[m[K’:
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:8:48:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KImageSubscriber[m[K’ does not have any field named ‘[01m[Kwriter[m[K’
+    8 |   ImageSubscriber() : Node("image_subscriber"),[01;31m[Kwriter[m[K(1, 400), reader(2, 400) {
+      |                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:8:64:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KImageSubscriber[m[K’ does not have any field named ‘[01m[Kreader[m[K’
+    8 |   ImageSubscriber() : Node("image_subscriber"),writer(1, 400), [01;31m[Kreader[m[K(2, 400) {
+      |                                                                [01;31m[K^~~~~~[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::onImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:25:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kwriter[m[K’ was not declared in this scope; did you mean ‘[01m[Kwrite[m[K’?
+   25 |    uint32_t *bram0_addr = [01;31m[Kwriter[m[K.GetPointer();
+      |                           [01;31m[K^~~~~~[m[K
+      |                           [32m[Kwrite[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:26:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kreader[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+   26 |      uint32_t *bram1_addr = [01;31m[Kreader[m[K.GetPointer();
+      |                             [01;31m[K^~~~~~[m[K
+      |                             [32m[Kread[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:36:37:[m[K [01;35m[Kwarning: [m[Kcast to pointer from integer of different size [[01;35m[K-Wint-to-pointer-cast[m[K]
+   36 |    bram0_addr[i] = *(uint32_t*)vec[i[01;35m[K][m[K;
+      |                                     [01;35m[K^[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:39:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kbram0_addr[m[K’, which is of non-class type ‘[01m[Kuint32_t*[m[K’ {aka ‘[01m[Kunsigned int*[m[K’}
+   39 |    for(unsigned int j=0;j<bram0_addr.[01;31m[Ksize[m[K();j++){
+      |                                      [01;31m[K^~~~[m[K
+[01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:26:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbram1_addr[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   26 |      uint32_t *[01;35m[Kbram1_addr[m[K = reader.GetPointer();
+      |                [01;35m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:63: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

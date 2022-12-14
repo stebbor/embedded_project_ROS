@@ -1,0 +1,64 @@
+[0.155s] Invoking command in '/home/mp4d/ros2_ws/build/project_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4
+[0.430s] [35m[1mScanning dependencies of target image_subscriber[0m
+[0.610s] [ 50%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o[0m
+[16.268s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In constructor ‘[01m[KImageSubscriber::ImageSubscriber()[m[K’:
+[16.269s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:8:48:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KImageSubscriber[m[K’ does not have any field named ‘[01m[Kwriter[m[K’
+[16.270s]     8 |   ImageSubscriber() : Node("image_subscriber"),[01;31m[Kwriter[m[K(1, 400), reader(2, 400) {
+[16.271s]       |                                                [01;31m[K^~~~~~[m[K
+[16.272s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:8:64:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KImageSubscriber[m[K’ does not have any field named ‘[01m[Kreader[m[K’
+[16.272s]     8 |   ImageSubscriber() : Node("image_subscriber"),writer(1, 400), [01;31m[Kreader[m[K(2, 400) {
+[16.273s]       |                                                                [01;31m[K^~~~~~[m[K
+[16.408s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::onImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[16.409s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:25:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kwriter[m[K’ was not declared in this scope; did you mean ‘[01m[Kwrite[m[K’?
+[16.409s]    25 |    uint32_t *bram0_addr = [01;31m[Kwriter[m[K.GetPointer();
+[16.410s]       |                           [01;31m[K^~~~~~[m[K
+[16.410s]       |                           [32m[Kwrite[m[K
+[16.445s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:26:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kreader[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+[16.449s]    26 |      uint32_t *bram1_addr = [01;31m[Kreader[m[K.GetPointer();
+[16.451s]       |                             [01;31m[K^~~~~~[m[K
+[16.452s]       |                             [32m[Kread[m[K
+[16.531s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:36:37:[m[K [01;35m[Kwarning: [m[Kcast to pointer from integer of different size [[01;35m[K-Wint-to-pointer-cast[m[K]
+[16.532s]    36 |    bram0_addr[i] = *(uint32_t*)vec[i[01;35m[K][m[K;
+[16.533s]       |                                     [01;35m[K^[m[K
+[16.537s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:26:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbram1_addr[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[16.538s]    26 |      uint32_t *[01;35m[Kbram1_addr[m[K = reader.GetPointer();
+[16.541s]       |                [01;35m[K^~~~~~~~~~[m[K
+[16.542s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[16.543s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:50:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBRAM::BRAM()[m[K’
+[16.543s]    50 |  BRAM [01;31m[Kwriter[m[K;
+[16.544s]       |       [01;31m[K^~~~~~[m[K
+[16.544s] In file included from [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:4[m[K:
+[16.546s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:30:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KBRAM::BRAM(unsigned int, unsigned int)[m[K’
+[16.548s]    30 |     [01;36m[KBRAM[m[K(unsigned int uio_number, unsigned int size) ;
+[16.549s]       |     [01;36m[K^~~~[m[K
+[16.550s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:30:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[16.551s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:27:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr BRAM::BRAM(const BRAM&)[m[K’
+[16.553s]    27 | class [01;36m[KBRAM[m[K {
+[16.553s]       |       [01;36m[K^~~~[m[K
+[16.554s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:27:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[16.555s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:27:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr BRAM::BRAM(BRAM&&)[m[K’
+[16.555s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:27:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[16.556s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:51:7:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBRAM::BRAM()[m[K’
+[16.557s]    51 |  BRAM [01;31m[Kreader[m[K;
+[16.558s]       |       [01;31m[K^~~~~~[m[K
+[16.558s] In file included from [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:4[m[K:
+[16.559s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:30:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KBRAM::BRAM(unsigned int, unsigned int)[m[K’
+[16.559s]    30 |     [01;36m[KBRAM[m[K(unsigned int uio_number, unsigned int size) ;
+[16.560s]       |     [01;36m[K^~~~[m[K
+[16.560s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:30:5:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[16.561s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:27:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr BRAM::BRAM(const BRAM&)[m[K’
+[16.562s]    27 | class [01;36m[KBRAM[m[K {
+[16.563s]       |       [01;36m[K^~~~[m[K
+[16.564s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:27:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[16.565s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:27:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr BRAM::BRAM(BRAM&&)[m[K’
+[16.565s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:27:7:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[16.579s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:50:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kwriter[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[16.580s]    50 |  BRAM [01;35m[Kwriter[m[K;
+[16.581s]       |       [01;35m[K^~~~~~[m[K
+[16.582s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:51:7:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kreader[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[16.582s]    51 |  BRAM [01;35m[Kreader[m[K;
+[16.583s]       |       [01;35m[K^~~~~~[m[K
+[26.773s] make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:63: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o] Error 1
+[26.774s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+[26.775s] make: *** [Makefile:141: all] Error 2
+[26.787s] Invoked command in '/home/mp4d/ros2_ws/build/project_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4

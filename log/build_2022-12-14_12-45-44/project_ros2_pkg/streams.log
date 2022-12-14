@@ -1,0 +1,52 @@
+[0.167s] Invoking command in '/home/mp4d/ros2_ws/build/project_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4
+[1.602s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.784s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.580s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.872s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.910s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.757s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.220s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[5.238s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.537s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[7.674s] -- Found cv_bridge: 3.0.7 (/opt/ros/foxy/share/cv_bridge/cmake)
+[7.889s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[8.462s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.498s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.499s] -- Configured cppcheck include dirs: 
+[8.499s] -- Configured cppcheck exclude dirs and/or files: 
+[8.517s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.518s] -- Configured cpplint exclude dirs and/or files: 
+[8.523s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.531s] -- Added test 'lint_cmake' to check CMake code style
+[8.536s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[8.554s] -- Added test 'uncrustify' to check C / C++ code style
+[8.554s] -- Configured uncrustify additional arguments: 
+[8.559s] -- Added test 'xmllint' to check XML markup files
+[8.579s] -- Configuring done
+[8.851s] -- Generating done
+[8.862s] -- Build files have been written to: /home/mp4d/ros2_ws/build/project_ros2_pkg
+[9.431s] [35m[1mScanning dependencies of target image_subscriber[0m
+[9.586s] [ 33%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/BRAM-uio-driver/src/bram_uio.cpp.o[0m
+[14.993s] [ 66%] [32m[1mLinking CXX executable image_subscriber[0m
+[26.277s] [100%] Built target image_subscriber
+[26.345s] Invoked command in '/home/mp4d/ros2_ws/build/project_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4
+[26.545s] Invoking command in '/home/mp4d/ros2_ws/build/project_ros2_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/ros2_ws/build/project_ros2_pkg
+[26.602s] -- Install configuration: ""
+[26.610s] -- Installing: /home/mp4d/ros2_ws/install/project_ros2_pkg/lib/project_ros2_pkg/image_subscriber
+[26.624s] -- Set runtime path of "/home/mp4d/ros2_ws/install/project_ros2_pkg/lib/project_ros2_pkg/image_subscriber" to ""
+[26.625s] -- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/ament_index/resource_index/package_run_dependencies/project_ros2_pkg
+[26.625s] -- Installing: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/ament_index/resource_index/parent_prefix_path/project_ros2_pkg
+[26.626s] -- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/environment/ament_prefix_path.sh
+[26.627s] -- Installing: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/environment/ament_prefix_path.dsv
+[26.628s] -- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/environment/path.sh
+[26.629s] -- Installing: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/environment/path.dsv
+[26.630s] -- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/local_setup.bash
+[26.631s] -- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/local_setup.sh
+[26.631s] -- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/local_setup.zsh
+[26.632s] -- Installing: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/local_setup.dsv
+[26.633s] -- Installing: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/package.dsv
+[26.633s] -- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/ament_index/resource_index/packages/project_ros2_pkg
+[26.634s] -- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/cmake/project_ros2_pkgConfig.cmake
+[26.635s] -- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/cmake/project_ros2_pkgConfig-version.cmake
+[26.635s] -- Up-to-date: /home/mp4d/ros2_ws/install/project_ros2_pkg/share/project_ros2_pkg/package.xml
+[26.652s] Invoked command in '/home/mp4d/ros2_ws/build/project_ros2_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mp4d/ros2_ws/build/project_ros2_pkg

@@ -1,0 +1,45 @@
+[0.117s] Invoking command in '/home/mp4d/ros2_ws/build/project_ros2_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4
+[0.426s] [35m[1mScanning dependencies of target image_subscriber[0m
+[0.620s] [ 50%] [32mBuilding CXX object CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o[0m
+[16.149s] In file included from [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:4[m[K:
+[16.151s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:36:10:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[Kwriter[m[K’ has incomplete type ‘[01m[KBRAM[m[K’
+[16.152s]    36 |     BRAM [01;31m[Kwriter[m[K;
+[16.153s]       |          [01;31m[K^~~~~~[m[K
+[16.153s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:27:7:[m[K [01;36m[Knote: [m[Kdefinition of ‘[01m[Kclass BRAM[m[K’ is not complete until the closing brace
+[16.154s]    27 | class [01;36m[KBRAM[m[K {
+[16.154s]       |       [01;36m[K^~~~[m[K
+[16.155s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:37:10:[m[K [01;31m[Kerror: [m[Kfield ‘[01m[Kreader[m[K’ has incomplete type ‘[01m[KBRAM[m[K’
+[16.155s]    37 |     BRAM [01;31m[Kreader[m[K;
+[16.156s]       |          [01;31m[K^~~~~~[m[K
+[16.157s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/BRAM-uio-driver/src/bram_uio.h:27:7:[m[K [01;36m[Knote: [m[Kdefinition of ‘[01m[Kclass BRAM[m[K’ is not complete until the closing brace
+[16.158s]    27 | class [01;36m[KBRAM[m[K {
+[16.158s]       |       [01;36m[K^~~~[m[K
+[16.272s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In constructor ‘[01m[KImageSubscriber::ImageSubscriber()[m[K’:
+[16.273s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:8:48:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KImageSubscriber[m[K’ does not have any field named ‘[01m[Kwriter[m[K’
+[16.274s]     8 |   ImageSubscriber() : Node("image_subscriber"),[01;31m[Kwriter[m[K(1, 400), reader(2, 400) {
+[16.275s]       |                                                [01;31m[K^~~~~~[m[K
+[16.277s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:8:64:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KImageSubscriber[m[K’ does not have any field named ‘[01m[Kreader[m[K’
+[16.278s]     8 |   ImageSubscriber() : Node("image_subscriber"),writer(1, 400), [01;31m[Kreader[m[K(2, 400) {
+[16.279s]       |                                                                [01;31m[K^~~~~~[m[K
+[16.413s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::onImageMsg(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)[m[K’:
+[16.414s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:25:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kwriter[m[K’ was not declared in this scope; did you mean ‘[01m[Kwrite[m[K’?
+[16.415s]    25 |    uint32_t *bram0_addr = [01;31m[Kwriter[m[K.GetPointer();
+[16.416s]       |                           [01;31m[K^~~~~~[m[K
+[16.417s]       |                           [32m[Kwrite[m[K
+[16.452s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:26:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kreader[m[K’ was not declared in this scope; did you mean ‘[01m[Kread[m[K’?
+[16.453s]    26 |      uint32_t *bram1_addr = [01;31m[Kreader[m[K.GetPointer();
+[16.454s]       |                             [01;31m[K^~~~~~[m[K
+[16.454s]       |                             [32m[Kread[m[K
+[16.538s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:36:37:[m[K [01;35m[Kwarning: [m[Kcast to pointer from integer of different size [[01;35m[K-Wint-to-pointer-cast[m[K]
+[16.539s]    36 |    bram0_addr[i] = *(uint32_t*)vec[i[01;35m[K][m[K;
+[16.540s]       |                                     [01;35m[K^[m[K
+[16.541s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:39:38:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksize[m[K’ in ‘[01m[Kbram0_addr[m[K’, which is of non-class type ‘[01m[Kuint32_t*[m[K’ {aka ‘[01m[Kunsigned int*[m[K’}
+[16.542s]    39 |    for(unsigned int j=0;j<bram0_addr.[01;31m[Ksize[m[K();j++){
+[16.543s]       |                                      [01;31m[K^~~~[m[K
+[16.544s] [01m[K/home/mp4d/ros2_ws/src/project-ROS2-pkg/src/image_subscriber.cpp:26:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kbram1_addr[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[16.545s]    26 |      uint32_t *[01;35m[Kbram1_addr[m[K = reader.GetPointer();
+[16.546s]       |                [01;35m[K^~~~~~~~~~[m[K
+[26.753s] make[2]: *** [CMakeFiles/image_subscriber.dir/build.make:63: CMakeFiles/image_subscriber.dir/src/image_subscriber.cpp.o] Error 1
+[26.755s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/image_subscriber.dir/all] Error 2
+[26.755s] make: *** [Makefile:141: all] Error 2
+[26.767s] Invoked command in '/home/mp4d/ros2_ws/build/project_ros2_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/mp4d/ros2_ws/build/project_ros2_pkg -- -j4 -l4
