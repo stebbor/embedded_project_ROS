@@ -21,6 +21,7 @@ find_package(rclcpp REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(OpenCV REQUIRED)
 find_package(cv_bridge REQUIRED)
+find_package(std_msgs REQUIRED)
 
 add_executable(image_subscriber
 	src/image_subscriber.cpp
@@ -31,6 +32,7 @@ ament_target_dependencies(image_subscriber
 	sensor_msgs
 	OpenCV
 	cv_bridge
+	std_msgs
 )
 install(TARGETS image_subscriber DESTINATION lib/${PROJECT_NAME})
 
