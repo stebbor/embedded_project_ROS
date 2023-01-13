@@ -44,24 +44,7 @@ class ImageSubscriber : public rclcpp::Node
 			//RCLCPP_INFO(this->get_logger(), "vec: '%f'", vec[i]);
 			bram0_addr[i] = *(uint32_t *)(&vec[i]);
 			}
-			
-		/*for(int n=0 ; n<20 ; n++){
-                uint32_t imgToLoad[400];
-                for(int i = 0 ; i<400 ; i++){
-                        imgToLoad[i] = *(uint32_t *)(&images_array[n][i]);
-			//RCLCPP_INFO(this->get_logger(), "image: '%d'", imgToLoad[i]); 
-                }
-
-                for(int i = 0 ; i<400 ; i++){
-                        bram0_addr[i] = imgToLoad[i];
-                }*/
-		
-
-			//RCLCPP_INFO(this->get_logger(), "IMG vector: '%f'",(float)vec.size());
-			//for(unsigned long int j=0;j<vec.size();j++){
-			//RCLCPP_INFO(this->get_logger(), "BRAM: '%d'", bram0_addr[j]);}
-			//RCLCPP_INFO(this->get_logger(),"Vector end")
-			//RCLCPP_INFO(this->get_logger(), "Successfully loaded image");
+	
 			usleep(10000);
 			uint32_t predict = bram0_addr[512];
 			RCLCPP_INFO(this->get_logger(), "Predict: '%d'", bram0_addr[512]);
@@ -69,7 +52,7 @@ class ImageSubscriber : public rclcpp::Node
 			auto message = std_msgs::msg::String();
 			message.data = std::to_string(predict);
 			servo_pos_pub_->publish(message);
-			usleep(100000);
+			//usleep(200000);
 }
 
 };
